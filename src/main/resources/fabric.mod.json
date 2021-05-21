@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "performacraft",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Performacraft Manager",
+  "description": "The Coremod of Performacraft",
   "authors": [
-    "Me!"
+    "Blobanium"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.github.blobanium.performacraft.PerformacraftManager"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "performacraft.mixins.json"
   ],
 
   "depends": {
