@@ -4,9 +4,7 @@
   "package": "io.github.blobanium.performacraft.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-  ],
-  "client": [
-    "ExampleMixin"
+    "MinecraftClientMixin"
   ],
   "injectors": {
     "defaultRequire": 1
